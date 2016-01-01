@@ -33,7 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I had a hard time getting a settings page to store the users default tip percentage and with Chirstmas coming up could not find the time to figure it out. I did not attempt animations or anything more because I spent most my time working on trying to store defaults with NSUserDefaults and could not figure it out.
+I had a hard time getting a settings page to store the users default tip percentage and with Chirstmas coming up could not find the time to figure it out. I did not attempt animations or anything more because I spent most my time working on trying to store defaults with NSUserDefaults and could not figure it out. Also, the instructions on how to use github seemed unclear to me I did what I thought I needed to do to show CodePath my code, however I believe it is not the way they would have liked. I will try to update it into the way CodePath would like later.
 
 ## License
 
