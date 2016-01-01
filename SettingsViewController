@@ -1,0 +1,56 @@
+//
+//  SettingsViewController.swift
+//  Tipper
+//
+//  Created by Ryan Linehan on 12/15/15.
+//  Copyright © 2015 Ryan Linehan. All rights reserved.
+//
+
+import UIKit
+
+class SettingsViewController: UIViewController {
+
+    @IBOutlet weak var defaultTipControl: UISegmentedControl!
+
+    @IBAction func actDefaultTipCont(sender: AnyObject) {
+    
+        var tipPercentages = [0.18, 0.2, 0.22]
+        
+        let tipPercentage = tipPercentages[defaultTipControl.selectedSegmentIndex]
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        defaults.setObject(tipPercentage, forKey: "tipAmount")
+        
+        defaults.setInteger(123, forKey: "intAmount")
+        
+        defaults.synchronize()
+
+    }
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        
+        
+        // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
