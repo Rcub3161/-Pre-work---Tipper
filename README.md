@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/uvzjtBb' title='Tipper App' width='' alt='Tipper App' />
+<img src="http://imgur.com/uvzjtBb" alt="Tipper App" style="width:304px;height:228px;">
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
